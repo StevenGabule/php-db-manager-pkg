@@ -1,0 +1,25 @@
+{
+	"cSpell.words": [
+		"autoload",
+		"codesniffer",
+		"ERRMODE",
+		"friendsofphp",
+		"Inno",
+		"jpgabs",
+		"phpcbf",
+		"phpcs",
+		"phpunit",
+		"ruleset",
+		"squizlabs"
+	],
+	"php.suggest.basic": false,
+	"[php]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "junstyle.php-cs-fixer"
+	},
+	"php-cs-fixer.config": ".php-cs-fixer.php",
+	"php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+	"php-cs-fixer.onsave": true,
+	"php-cs-fixer.rules": "@PSR12",
+	"editor.tabSize": 2
+}
